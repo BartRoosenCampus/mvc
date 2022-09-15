@@ -1,0 +1,6 @@
+# Deny access to everything
+Order Allow,Deny
+deny from all
+<Files *.*>
+    deny from all
+</Files>
